@@ -38,4 +38,4 @@ def kesha_maker(array)
     kesha_maker = letter_array.join
   end
   kesha_maker
-end 
+end
