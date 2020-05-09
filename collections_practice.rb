@@ -41,7 +41,7 @@ end
 def find_a(word)
   word = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
   word.find do |letter|
-    letter == a 
-  end 
-  array 
+    letter == a
+  end
+  array
 end 
