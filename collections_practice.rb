@@ -33,9 +33,12 @@ end
 def kesha_maker(array)
   kesha_maker = ["blake", "ashley", "scott"]
   array.each do |letter|
-    letter = letter.split ""
     letter[2] = "$"
     kesha_maker = letter.join
   end
   kesha_maker
 end
+
+def find_a(word)
+  find_a = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
+  word.find do |word|
