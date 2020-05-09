@@ -14,8 +14,5 @@ def sort_array_desc(number)
 end
 
 def sort_array_char_count(array)
-  sort_array_char_count = ["dogs", "cat", "Horses"]
-  sort_array_char_count.sort do |a, b|
-    a <=> b
-  end
+  array.sort {|left, right| left.length <=> right.length}
 end
