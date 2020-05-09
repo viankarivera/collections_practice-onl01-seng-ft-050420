@@ -56,7 +56,7 @@ def add_s(array)
   return_array = ["hand","feet", "knee", "table"]
   array.each_with_index do |word, index|
     if index != 1
-      word += "s"
+      word += s
   end
   return_array << word
 end
