@@ -32,10 +32,10 @@ end
 
 def kesha_maker(array)
   kesha_maker = ["blake", "ashley", "scott"]
-  array.each do |word|
-    word_array = word.split ""
-    word_array[2] = "$"
-    kesha_maker = word_array.join
+  array.each do |letter|
+    letter_array = letter.split ""
+    letter_array[2] = "$"
+    kesha_maker = letter_array.join
   end
   kesha_maker
 end 
