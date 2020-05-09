@@ -19,4 +19,4 @@ def sort_array_char_count(array)
   sort_array_char_count.sort do |a, b|
     a <=> b
   end
-end 
+end
