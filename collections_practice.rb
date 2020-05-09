@@ -57,3 +57,11 @@ def sumy_array.inject(array)
   end
   array
 end
+
+def add_s(array)
+  array = ["hand","feet", "knee", "table"]
+  array.each do |letter|
+    letter[2] = "$"
+  end
+  array
+end
