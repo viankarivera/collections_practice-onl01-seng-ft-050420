@@ -31,11 +31,11 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  #kesha_maker = ["blake", "ashley", "scott"]
+  array = ["blake", "ashley", "scott"]
   array.each do |letter|
     letter[2] = "$"
   end
-  kesha_maker
+  array
 end
 
 #def find_a(word)
