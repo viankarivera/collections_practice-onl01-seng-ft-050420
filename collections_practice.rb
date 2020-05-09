@@ -28,4 +28,4 @@ def reverse_array(array)
   reverse_array.reverse do |a, b|
     b <=> a
   end
-end 
+end
