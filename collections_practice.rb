@@ -8,7 +8,7 @@ end
 
 def sort_array_desc(number)
   sort_array_desc = [25, 7, 14]
-  sort_array_desc.sort do |b, a|
+  sort_array_desc.sort do |a, b|
     b <=> a
   end
-end 
+end
