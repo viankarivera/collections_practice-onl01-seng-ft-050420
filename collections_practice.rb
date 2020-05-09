@@ -52,12 +52,6 @@ def sum_array(array)
   sum
 end
 
-def sumy_array.inject(array)
-  array.inject(0 :+)
-  end
-  array
-end
-
 def add_s(array)
   array = ["hand","feet", "knee", "table"]
   array.each do |letter|
