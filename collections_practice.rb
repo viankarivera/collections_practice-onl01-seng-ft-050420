@@ -53,10 +53,10 @@ def sum_array(array)
 end
 
 def add_s(array)
-  new_array = ["hand","feet", "knee", "table"]
+  return_array = ["hand","feet", "knee", "table"]
   array.each_with_index do |word, index|
     if index != 1
       word += "s"
   end
-  new_array << word
+  return_array << word
 end
