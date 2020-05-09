@@ -15,6 +15,7 @@ end
 
 def sort_array_char_count(array)
   sort_array_char_count = ["dogs", "cat", "Horses"]
+  sort_array_char_count.length < 1
   sort_array_char_count.sort do |a, b|
     a <=> b
   end
