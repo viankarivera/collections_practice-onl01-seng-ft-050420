@@ -38,10 +38,8 @@ def kesha_maker(array)
   array
 end
 
-def find_a(word)
-  word = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
-  word.find do |letter|
-    letter.start_with("a")
+def find_a(array)
+  array.select do |string|
+    string.start_with?("a")
   end
-  array
 end
