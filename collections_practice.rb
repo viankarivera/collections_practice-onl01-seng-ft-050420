@@ -24,7 +24,7 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  reverse_array = ["12", "4", "35"]
+  reverse_array = [12, 4, 35]
   reverse_array.reverse do |a, b|
     b <=> a
   end
