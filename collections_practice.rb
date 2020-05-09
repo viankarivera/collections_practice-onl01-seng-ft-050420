@@ -19,4 +19,6 @@ end
 
 def swap_elements(array)
   swap_elements = ["blake", "ashley", "scott"]
+    array[1], array[2] = array[2], array[1]
+  end 
 end 
