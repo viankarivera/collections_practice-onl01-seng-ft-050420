@@ -38,6 +38,6 @@ def kesha_maker(array)
   kesha_maker
 end
 
-def find_a(word)
-  find_a = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
-  word.find do |word|
+#def find_a(word)
+  #find_a = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
+  #word.find do |word|
