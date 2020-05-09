@@ -35,7 +35,7 @@ def kesha_maker(array)
   array.each do |letter|
     letter = letter.split ""
     letter[2] = "$"
-    kesha_maker = letter_array.join
+    kesha_maker = letter.join
   end
   kesha_maker
 end
