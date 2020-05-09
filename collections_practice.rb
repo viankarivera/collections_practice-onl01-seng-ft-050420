@@ -54,6 +54,6 @@ end
 
 def sumy_array.inject(array)
   array.inject(0 :+)
+  end
+  array
 end
-array
-end 
