@@ -54,7 +54,7 @@ end
 
 def add_s(array)
   array = ["hand","feet", "knee", "table"]
-  array.each do |letter|
+  array.each_with_index do |letter|
     letter[5] = "s"
   end
   array
